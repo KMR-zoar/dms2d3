@@ -30,5 +30,5 @@ def ddd2dms(ddd)
       sss = ss.to_s
    end
 
-   ddd2dms = dd.to_s +  mm.floor.to_s + sss
+   ddd2dms = (dd * 100 +  mm).floor.to_s + sss
 end
